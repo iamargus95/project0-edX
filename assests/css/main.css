@@ -1,0 +1,97 @@
+#image{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.search-input{
+    display: flex;
+    border: 2px solid #000000;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    min-height: 40px;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+#header-img
+{
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav > ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.a_ref{
+    color: black;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.main{
+    margin-top: 70px;
+}
+
+#title-advanced{
+    color: darkred;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+#little-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.find-pages{
+    margin-bottom: 20px;
+    margin-left: 40px;
+    flex-direction: row;
+}
+
+.space{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.advanced-input{
+    width: 40%;
+    text-align: left;
+}
+
+.text-advanced{
+    width: 200px;
+    justify-content: center;
+}
+
+#space-btn{
+    margin-right: 50px;
+}
