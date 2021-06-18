@@ -51,7 +51,8 @@ nav > ol{
 .a_ref{
     color: black;
     text-decoration: none;
-    justify-content: space-around;
+    justify-content: flex-end;
+    text-align: center;
 }
 
 .main{
@@ -59,7 +60,7 @@ nav > ol{
 }
 
 #title-advanced{
-    color: darkred;
+    color: black;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 40px;
@@ -82,13 +83,18 @@ nav > ol{
     margin-bottom: 20px;
 }
 
+.spaceh{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .advanced-input{
-    width: 40%;
+    width: 35%;
     text-align: left;
 }
 
 .text-advanced{
-    width: 200px;
+    width: 150px;
     justify-content: center;
 }
 
